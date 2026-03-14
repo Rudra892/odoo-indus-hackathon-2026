@@ -1,0 +1,9 @@
+import api from './axios';
+
+export const getProducts = (params) => {
+  const query = new URLSearchParams(params).toString();
+  return api.get(`/products?${query}`);
+};
+export const createProduct = (data) => api.post('/products', data);
+export const updateProduct = (id, data) => api.put(`/products/${id}`, data);
+export const deleteProduct = (id) => api.delete(`/products/${id}`);
