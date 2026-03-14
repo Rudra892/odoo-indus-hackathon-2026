@@ -37,7 +37,6 @@ Excel sheets with a centralized, easy-to-use web app.
 | Database   | MongoDB + Mongoose      |
 | Auth       | JWT + bcryptjs          |
 | Icons      | Lucide React            |
-| Deployment | Vercel + Render         |
 
 ---
 
